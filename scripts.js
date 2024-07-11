@@ -5,12 +5,12 @@ function randomLeidram(min, max) {
 }
 // code from https://stackoverflow.com/questions/50013591/random-image-on-html-refresh 
 
-function stat_lv1() {
+function stat_1_lv1() {
   document.getElementById("stat_REF").innerHTML = `
     <b>Level 1</b>&emsp;
-    <a class="statBtn" onclick="stat_base()">Base</a>&emsp;
-    <a class="statBtn" onclick="stat_enc()">Encyclopedia</a>&emsp;
-    <a class="statBtn" onclick="stat_max()">MAX</a>
+    <a class="statBtn" onclick="stat_1_base()">Base</a>&emsp;
+    <a class="statBtn" onclick="stat_1_enc()">Encyclopedia</a>&emsp;
+    <a class="statBtn" onclick="stat_1_max()">MAX</a>
   `;
   document.getElementById("stat_POW").innerHTML = "36,972";
   document.getElementById("stat_AWK").innerHTML = "&#x29be;&#x29be;&#x29be;&#x29be;";
@@ -21,12 +21,12 @@ function stat_lv1() {
   document.getElementById("stat_POT").innerHTML = "0%";
   document.getElementById("stat_MST").innerHTML = "0 / 40";
 }
-function stat_base() {
+function stat_1_base() {
   document.getElementById("stat_REF").innerHTML = `
-    <a class="statBtn" onclick="stat_lv1()">Level 1</a>&emsp;
+    <a class="statBtn" onclick="stat_1_lv1()">Level 1</a>&emsp;
     <b>Base</b>&emsp;
-    <a class="statBtn" onclick="stat_enc()">Encyclopedia</a>&emsp;
-    <a class="statBtn" onclick="stat_max()">MAX</a>
+    <a class="statBtn" onclick="stat_1_enc()">Encyclopedia</a>&emsp;
+    <a class="statBtn" onclick="stat_1_max()">MAX</a>
   `;
   document.getElementById("stat_POW").innerHTML = "134,520";
   document.getElementById("stat_AWK").innerHTML = "&#x29be;&#x29be;&#x29be;&#x29be;";
@@ -37,12 +37,12 @@ function stat_base() {
   document.getElementById("stat_POT").innerHTML = "0%";
   document.getElementById("stat_MST").innerHTML = "0 / 40";
 }
-function stat_enc() {
+function stat_1_enc() {
   document.getElementById("stat_REF").innerHTML = `
-    <a class="statBtn" onclick="stat_lv1()">Level 1</a>&emsp;
-    <a class="statBtn" onclick="stat_base()">Base</a>&emsp;
+    <a class="statBtn" onclick="stat_1_lv1()">Level 1</a>&emsp;
+    <a class="statBtn" onclick="stat_1_base()">Base</a>&emsp;
     <b>Encyclopedia</b>&emsp;
-    <a class="statBtn" onclick="stat_max()">MAX</a>
+    <a class="statBtn" onclick="stat_1_max()">MAX</a>
   `;
   document.getElementById("stat_POW").innerHTML = "302,664";
   document.getElementById("stat_AWK").innerHTML = "&#x29be;&#x29be;&#x29be;&#x29be;";
@@ -53,11 +53,11 @@ function stat_enc() {
   document.getElementById("stat_POT").innerHTML = "0%";
   document.getElementById("stat_MST").innerHTML = "0 / 40";
 }
-function stat_max() {
+function stat_1_max() {
   document.getElementById("stat_REF").innerHTML = `
-    <a class="statBtn" onclick="stat_lv1()">Level 1</a>&emsp;
-    <a class="statBtn" onclick="stat_base()">Base</a>&emsp;
-    <a class="statBtn" onclick="stat_enc()">Encyclopedia</a>&emsp;
+    <a class="statBtn" onclick="stat_1_lv1()">Level 1</a>&emsp;
+    <a class="statBtn" onclick="stat_1_base()">Base</a>&emsp;
+    <a class="statBtn" onclick="stat_1_enc()">Encyclopedia</a>&emsp;
     <b>MAX</b>
   `;
   document.getElementById("stat_POW").innerHTML = "3,447,432";
