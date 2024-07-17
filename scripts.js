@@ -5,6 +5,23 @@ function randomLeidram(min, max) {
 }
 // code from https://stackoverflow.com/questions/50013591/random-image-on-html-refresh 
 
+function navQuery() {
+  let q = new URLSearchParams(window.location.search).get("nav");
+  if (q = "home") {
+    // TODO
+  } else if (q == "blog") {
+    // TODO
+  } else if (q == "story") {
+    // TODO
+  } else if (q == "leidram") {
+    // TODO
+  } else if (q == "cv") {
+    // TODO
+  } else {
+    // TODO
+  }
+}
+
 function stat_1_lv1() {
   document.getElementById("stat_REF").innerHTML = `
     <b>Level 1</b>&emsp;
