@@ -1,0 +1,18 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  scroll-behavior: smooth;
+}
+
+* { box-sizing: border-box; }
+
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  pointer-events: none;
+}

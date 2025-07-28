@@ -3,22 +3,31 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Emii Shion">
-    <title>404👑🐣</title>
-    <link rel="icon" href="/emiishion/Leidram_3.png" type="image/x-icon">
+    <meta name="author" content="絵美紫苑とアーサー王👑🐣">
+    <title>404</title>
+    <!-- <link rel="icon" href="https://thebelovedmoon.github.io/emiishion/Leidram_3.png" type="image/x-icon"> -->
+    <!-- <meta name="og:type" content="website"> -->
+    <!-- <meta name="og:title" content="絵美紫苑とアーサー王👑🐣"> -->
+    <!-- <meta name="og:image" content="https://thebelovedmoon.github.io/emiishion/assets/images/LEIDRAM2024_bg.png"> -->
+    <!-- <meta name="og:url" content="https://thebelovedmoon.github.io/emiishion"> -->
+    <!-- <meta name="og:description" content="will you join the Reincarnated Phoenix Queen and the Cursed Legend on the Round Table?👑🐣"> -->
+    <!-- <meta name="twitter:card" content="summary_large_image"> -->
+    <!-- <meta name="twitter:site" content="@EmiiShion"> -->
+    <!-- <meta name="twitter:creator" content="@EmiiShion"> -->
     <meta name="theme-color" content="#d6d8e5">
     <meta name="msapplication-TileColor" content="#d6d8e5">
     <meta name="msapplication-navbutton-color" content="#d6d8e5">
     <meta name="apple-mobile-web-app-status-bar-style" content="#d6d8e5">
     <!-- custom css -->
-    <link href="/emiishion/style.css" rel="stylesheet" type="text/css" media="all"> <!-- inbuilt -->
+    <link href="/emiishion/assets/css/_main.css" rel="stylesheet" type="text/css" media="all"> <!-- inbuilt -->
     <style type="text/css">
       /* attach in-html custom css args here */
+      @import url("/emiishion/assets/css/core.css");
     </style>
-    <!-- custom scripts -->
-    <script src="/emiishion/scripts.js" type="text/javascript"></script> <!-- inbuilt -->
+    <!-- custom js -->
+    <script src="/emiishion/assets/js/_main.js" type="text/javascript"></script> <!-- inbuilt -->
     <script type="text/javascript">
-      function launch() {
+      function init() {
         // launch javascript args here
       }
     </script>
@@ -26,16 +35,13 @@
       // attach in-html custom javascript args here
     </script>
   </head>
-  <body onload="launch()">
-    <div style="width: 750px; max-width: 100%; margin: 0 auto; padding: 250px 25px; text-align: center;">
-      <h1>404 not found</h1>
-      <br>
-      <button onclick="window.open('/emiishion/', '_self')">home</button>
-      <br><br><br><br>
-      <p>
-        <span>アーサー王, Evertale, and related resources © 2019 ZigZaGame Inc.</span>
+  <body onload="init()">
+    <div id="replaceScreen">
+      <div class="alternativeIntro">
+        <h2>404 not found</h2>
+        <br><br>
         <span>© 2022 a vTbmassoc venture</span>
-      </p>
+      </div>
     </div>
   </body>
 </html>
