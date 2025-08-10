@@ -8,3 +8,9 @@
   </div>
 </header>
 <div bgHero style="background-image: url('/emiishion/assets/images/vtuber/EmiiShion/main.png'); height: 100vh;"></div>
+<div class="cta">
+  <h1>Emii Shion (絵美紫苑)🐣</h1>
+  <p style="font-weight: bold;">Reincarnated Phoenix Queen</p>
+  <br>
+  <p>CV: thebelovedmoon</p>
+</div>

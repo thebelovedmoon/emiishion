@@ -8,3 +8,9 @@
   </div>
 </header>
 <div bgHero style="background-image: url('/emiishion/assets/images/vtuber/LeidramCh/main.png'); height: 100vh;"></div>
+<div class="cta">
+  <h1>Arthur Regina Leidram (アーサー王)👑</h1>
+  <p style="font-weight: bold;">The Cursed Legend</p>
+  <br>
+  <p>CV: Nashimoto Hiori</p>
+</div>

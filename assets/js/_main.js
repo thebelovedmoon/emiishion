@@ -19,20 +19,22 @@ function isVTuber(nm) {
   scrpt.type = "text/javascript";
   switch (nm) {
     case "EmiiShion":
-      document.title = "Emii Shion (絵美紫苑)👑🐣";
+      document.title = "Emii Shion (絵美紫苑)🐣";
       fvc.href = "/emiishion/assets/images/icon/pfp_Emii.png";
       document.head.appendChild(fvc);
       scrpt.src = `/emiishion/assets/js/vtuber/${nm}.js`;
       document.head.appendChild(scrpt);
       importCSS(`@import url("/emiishion/assets/css/vtuber/${nm}.css");`);
+      // document.body.onload = () => { vtuberInit(); };
       return nm;
     case "LeidramCh":
-      document.title = "Arthur Regina Leidram (アーサー王)👑🐣";
+      document.title = "Arthur Regina Leidram (アーサー王)👑";
       fvc.href = "/emiishion/assets/images/icon/pfp_Leidram.png";
       document.head.appendChild(fvc);
       scrpt.src = `/emiishion/assets/js/vtuber/${nm}.js`;
       document.head.appendChild(scrpt);
       importCSS(`@import url("/emiishion/assets/css/vtuber/${nm}.css");`);
+      // document.body.onload = () => { vtuberInit(); };
       return nm;
     default: return event.preventDefault();
   }

@@ -1,25 +1,15 @@
+@import url("/emiishion/assets/css/vtuber/core.css");
+
+html { background-color: #d6d8e5; }
+
 header {
-  width: 100vw;
-  padding: 0.75rem 1.5rem;
   background-color: #d6d8e5;
   color: black;
-  display: flex;
-  justify-content: space-between;
-  z-index: 500;
   box-shadow: 0 3.75px 7.5px #d6d8e5a0;
-  position: absolute;
 }
-header > div {
-  display: flex;
-  align-items: center;
-}
-header div .material-symbols-rounded { margin-left: 0.5rem; }
 header div .material-symbols-rounded:hover { color: #666; }
 
-div[bgHero] {
+.cta {
   background-color: #d6d8e5;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  width: 100vw;
+  color: black;
 }
