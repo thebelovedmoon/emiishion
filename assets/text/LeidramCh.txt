@@ -4,7 +4,7 @@
   </div>
   <div>
     <!-- <span class="material-symbols-rounded" title="return to selection">home</span> -->
-    <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/')">logout</span> <!-- logout -->
+    <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/emiishion')">logout</span> <!-- logout -->
   </div>
 </header>
 <div bgHero style="background-image: url('/emiishion/assets/images/vtuber/LeidramCh/main.png'); height: 100vh;"></div>
