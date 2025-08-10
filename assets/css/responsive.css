@@ -14,3 +14,8 @@
 @media screen and (min-width: 2160px) {
   body { font-size: xx-large; }
 }
+
+/* vtuber selector */
+@media screen and (max-width: 480px) {
+  .alternativeIntro > div { grid-template-columns: 100% !important; }
+}
