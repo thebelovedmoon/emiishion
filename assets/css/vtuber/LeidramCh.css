@@ -13,3 +13,6 @@ header div .material-symbols-rounded:hover { color: #666; }
   background-color: #d6d8e5;
   color: black;
 }
+
+.socials > * { cursor: pointer; }
+.socials > *:hover { color: #666; }

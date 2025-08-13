@@ -34,3 +34,41 @@ div[bgHero] {
   text-align: center;
   padding: 9rem 1.5rem;
 }
+
+.exploreRegina {
+  background-color: teal;
+  background-image: url("/emiishion/assets/images/LEIDRAM2024_bg.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.exploreRegina > div {
+  display: grid;
+  grid-template-columns: 37.5% 62.5%;
+}
+.exploreRegina > div > div[exploreText] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3rem 1.5rem;
+}
+.exploreRegina > div > div[exploreText] > div > .socials > *:hover { color: teal; }
+.exploreRegina > div > div > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center 25%;
+  object-position: center 25%;
+}
+
+@media screen and (max-width: 720px) {
+  .exploreRegina > div { grid-template-columns: 100%; }
+  .exploreRegina > div > div[exploreText] {
+    justify-content: center;
+    text-align: center;
+  }
+  /* .exploreRegina > div > div > img { aspect-ratio: 16 / 6; } */
+}
