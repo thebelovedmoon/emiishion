@@ -26,6 +26,7 @@ function isVTuber(nm) {
       document.head.appendChild(scrpt);
       importCSS(`@import url("/emiishion/assets/css/vtuber/${nm}.css");`);
       // document.body.onload = () => { vtuberInit(); };
+      modelNm = nm;
       return nm;
     case "LeidramCh":
       document.title = "Arthur Regina Leidram (アーサー王)👑";
@@ -35,6 +36,7 @@ function isVTuber(nm) {
       document.head.appendChild(scrpt);
       importCSS(`@import url("/emiishion/assets/css/vtuber/${nm}.css");`);
       // document.body.onload = () => { vtuberInit(); };
+      modelNm = nm;
       return nm;
     default: return event.preventDefault();
   }

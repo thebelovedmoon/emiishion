@@ -37,3 +37,15 @@ body * { display: block; }
 }
 .alternativeIntro > div > div * { margin: 0 auto !important; }
 .alternativeIntro > div > div:hover { color: #fed962; }
+
+button {
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-family: inherit;
+  font-size: 0.75em;
+  cursor: pointer;
+}
+button:hover { background-color: rgb(2, 102, 102); }

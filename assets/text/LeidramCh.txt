@@ -26,23 +26,31 @@
     <!-- <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:jelsa14018@gmail.com')"></span> -->
   </div>
 </div>
+
+<div style="padding: 1.5rem; background-color: #d6d8e5; color: black;">
+  <h2>see the VTuber in 3D</h2>
+  <br>
+  <div id="modelCanvas"></div>
+  <br>
+  <div style="font-size: 0.75em; text-align: right;">
+    <p onclick="window.open('https://github.com/pixiv/three-vrm')">library: pixiv/three-vrm (lic. MIT)</p>
+  </div>
+</div>
 <footer class="exploreRegina">
-  <div>
-    <div exploreText>
-      <div>
-        <h2>explore the Reginas👑🐣</h2>
-        <div class="socials">
-          <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/EmiiShion')"></span>
-          <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@EmiiShion')"></span>
-          <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/EmiiShion')"></span>
-          <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:EmiiShionALVR@gmail.com')"></span>
-        </div>
-        <br>
-        <p style="font-size: 0.75em;">© 2022 a vTbmassoc venture</p>
-      </div>
-    </div>
+  <div exploreText>
     <div>
-      <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
+      <h2>explore the Reginas👑🐣</h2>
+      <div class="socials">
+        <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/EmiiShion')"></span>
+        <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@EmiiShion')"></span>
+        <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/EmiiShion')"></span>
+        <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:EmiiShionALVR@gmail.com')"></span>
+      </div>
+      <br>
+      <p style="font-size: 0.75em;">© 2022 a vTbmassoc venture</p>
     </div>
+  </div>
+  <div>
+    <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
   </div>
 </footer>

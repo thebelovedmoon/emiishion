@@ -1,4 +1,5 @@
 @import url("/emiishion/assets/css/vtuber/core.css");
+@import url("https://vtresmarias.github.io/assets/frameworks/css/fonts.css");
 
 html { background-color: #fed962; }
 
@@ -16,3 +17,58 @@ header div .material-symbols-rounded:hover { color: #666; }
 
 .socials > * { cursor: pointer; }
 .socials > *:hover { color: #666; }
+
+.sotfm {
+  background-color: #3d374c;
+  background-image: url("https://vtresmarias.github.io/assets/images/backgrounds/vtm_3.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #3d374c;
+  font-family: "Noto Serif Display", "Kaisei Opti", "Windows 11 Emoji", "Noto Color Emoji";
+  letter-spacing: -0.08rem;
+  font-weight: 500;
+}
+.sotfm > div {
+  display: grid;
+  grid-template-columns: 37.5% 62.5%;
+  direction: rtl;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+.sotfm > div > div[exploreText] {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 3rem 1.5rem;
+  direction: initial;
+  text-align: right;
+}
+.sotfm > div > div[exploreText] > div > button { background-color: #3d374c; }
+.sotfm > div > div[exploreText] > div > button:hover { background-color: #2e2a3a; }
+/* .sotfm > div > div[exploreText] > div > .socials > *:hover { color: teal; } */
+.sotfm > div > div > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 10;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center 25%;
+  object-position: center 25%;
+  margin-top: 1rem;
+}
+
+/* responsive */
+@media screen and (max-width: 960px) {
+  .sotfm > div {
+    grid-template-columns: 100%;
+    direction: initial;
+  }
+  .sotfm > div > div[exploreText] {
+    width: 35rem;
+    max-width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+}

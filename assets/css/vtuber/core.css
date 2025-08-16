@@ -42,19 +42,17 @@ div[bgHero] {
   background-position: center center;
   background-repeat: no-repeat;
   color: white;
-}
-.exploreRegina > div {
   display: grid;
   grid-template-columns: 37.5% 62.5%;
 }
-.exploreRegina > div > div[exploreText] {
+.exploreRegina > div[exploreText] {
   height: 100%;
   display: flex;
   align-items: center;
   padding: 3rem 1.5rem;
 }
-.exploreRegina > div > div[exploreText] > div > .socials > *:hover { color: teal; }
-.exploreRegina > div > div > img {
+.exploreRegina > div[exploreText] > div > .socials > *:hover { color: teal; }
+.exploreRegina > div > img {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 10;
@@ -65,10 +63,23 @@ div[bgHero] {
 }
 
 @media screen and (max-width: 720px) {
-  .exploreRegina > div { grid-template-columns: 100%; }
-  .exploreRegina > div > div[exploreText] {
+  .exploreRegina { grid-template-columns: 100%; }
+  .exploreRegina > div[exploreText] {
     justify-content: center;
     text-align: center;
   }
-  /* .exploreRegina > div > div > img { aspect-ratio: 16 / 6; } */
+  /* .exploreRegina > div > img { aspect-ratio: 16 / 6; } */
 }
+
+#modelCanvas > canvas {
+  display: block;
+  -ms-touch-action: auto !important;
+  touch-action: auto !important;
+  background-color: black;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 0.75rem;
+}
+
+div[style="font-size: 0.75em; text-align: right;"] * { cursor: pointer; }
+div[style="font-size: 0.75em; text-align: right;"] *:hover { color: #666; }
