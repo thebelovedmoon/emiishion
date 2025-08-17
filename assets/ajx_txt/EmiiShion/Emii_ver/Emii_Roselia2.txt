@@ -1,0 +1,15 @@
+<img
+  style="
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: calc(192px * 2);
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  "
+  src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_2.png"
+  alt=""
+>
+<br>
+<h3 style="text-align: center">Roselia ver.2</h3>

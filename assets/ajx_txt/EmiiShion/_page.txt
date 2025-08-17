@@ -1,0 +1,108 @@
+<header>
+  <div style="font-weight: 500;">
+    <p>Emii Shion</p>
+  </div>
+  <div>
+    <!-- <span class="material-symbols-rounded" title="return to selection">account_circle</span> -->
+    <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/emiishion')">logout</span> <!-- logout -->
+  </div>
+</header>
+<div bgHero style="background-color: #fed962; background-image: url('/emiishion/assets/images/vtuber/EmiiShion/main.png'); height: 100vh;"></div>
+<div class="cta">
+  <div style="background-color: #fed96240;">
+    <h1>Emii Shion (絵美紫苑)🐣</h1>
+    <p style="font-weight: bold;">Reincarnated Phoenix Queen</p>
+    <br>
+    <p>CV: thebelovedmoon</p>
+    <div class="socials">
+      <span class="fa-solid fa-spa" title="V三人のマリア" onclick="window.open('https://vtresmarias.github.io')"></span>
+      <span class="fa-solid fa-globe" title="website" onclick="window.open('https://thebelovedmoon.github.io')"></span>
+      <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/thebelovedmoon')"></span>
+      <span class="fa-brands fa-facebook" title="Facebook" onclick="window.open('https://facebook.com/thebelovedmoon')"></span>
+      <span class="fa-brands fa-instagram" title="Instagram" onclick="window.open('https://instagram.com/themoon_follow')"></span>
+      <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@thebelovedmoon')"></span>
+      <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/thebelovedmoon')"></span>
+      <span class="fa-brands fa-tiktok" title="TikTok" onclick="window.open('https://tiktok.com/@themoon_follow')"></span>
+      <span class="fa-brands fa-github" title="GitHub" onclick="window.open('https://github.com/thebelovedmoon')"></span>
+      <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:jelsa14018@gmail.com')"></span>
+    </div>
+  </div>
+</div>
+<div class="sotfm">
+  <div>
+    <div exploreText>
+      <div>
+        <h2 style="font-family: 'Architects Daughter', cursive;">her story continues..</h2>
+        <br>
+        <p>
+          Emii's journey continues even as the Marias' story has concluded. carrying the
+          legacy of the Sisters with her, she's set to fulfill the promise they made
+          under the cherry blossom trees.
+        </p>
+        <br>
+        <button style="display: inline-block;" onclick="window.open('https://vtresmarias.github.io?vtm=story')">read the story</button>
+      </div>
+    </div>
+    <div>
+      <img src="/emiishion/assets/images/vtuber/EmiiShion/sotfm_main.png" alt="the Reginas👑🐣">
+    </div>
+  </div>
+</div>
+<div class="versionSelect">
+  <div>
+    <h2>explore the vtuber versions</h2>
+    <div>
+      <div style="padding: 1.5rem;"> <!-- version selector -->
+        <div versionSelection Emii_main onclick="loadVer('Emii_main')">
+          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/_main.png" alt="">
+          <div><p>Main ver.</p></div>
+        </div>
+        <br>
+        <div versionSelection Emii_ALVR onclick="loadVer('Emii_ALVR')">
+          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/ALVR.png" alt="">
+          <div><p>AURORA (AuroraLiveVR) ver.</p></div>
+        </div>
+        <br>
+        <div versionSelection Emii_Roselia onclick="loadVer('Emii_Roselia1')">
+          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_1.png" alt="">
+          <div><p>Roselia ver.1</p></div>
+        </div>
+        <br>
+        <div versionSelection Emii_Roselia onclick="loadVer('Emii_Roselia2')">
+          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_2.png" alt="">
+          <div><p>Roselia ver.2</p></div>
+        </div>
+      </div>
+      <div versionDetailer> <!-- version details -->
+        <p style="text-align: center;">click a version on the left to see the details</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div style="padding: 1.5rem; background-color: #fed962; color: black;">
+  <h2>see the VTuber in 3D</h2>
+  <br>
+  <div id="modelCanvas"></div>
+  <br>
+  <div style="font-size: 0.75em; display: flex; justify-content: right;">
+    <p style="text-align: right;" onclick="window.open('https://github.com/pixiv/three-vrm')">library: pixiv/three-vrm (lic. MIT)</p>
+  </div>
+</div>
+<footer>
+  <div exploreText>
+    <div>
+      <h2>explore the Reginas👑🐣</h2>
+      <div class="socials">
+        <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/EmiiShion')"></span>
+        <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@EmiiShion')"></span>
+        <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/EmiiShion')"></span>
+        <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:EmiiShionALVR@gmail.com')"></span>
+      </div>
+      <br>
+      <p style="font-size: 0.75em;">© 2022 a vTbmassoc venture</p>
+    </div>
+  </div>
+  <div>
+    <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
+  </div>
+</footer>

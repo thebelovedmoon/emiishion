@@ -1,0 +1,58 @@
+<header>
+  <div style="font-weight: 500;">
+    <p>Arthur Regina Leidram</p>
+  </div>
+  <div>
+    <!-- <span class="material-symbols-rounded" title="return to selection">home</span> -->
+    <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/emiishion')">logout</span> <!-- logout -->
+  </div>
+</header>
+<div bgHero style="background-color: #d6d8e5; background-image: url('/emiishion/assets/images/vtuber/LeidramCh/main.png'); height: 100vh;"></div>
+<div class="cta">
+  <div style="background-color: #d6d8e540;">
+    <h1>Arthur Regina Leidram (アーサー王)👑</h1>
+    <p style="font-weight: bold;">The Cursed Legend</p>
+    <br>
+    <p>CV: Nashimoto Hiori</p>
+    <div class="socials">
+      <!-- <span class="fa-solid fa-spa" title="V三人のマリア" onclick="window.open('https://vtresmarias.github.io')"></span> -->
+      <!-- <span class="fa-solid fa-globe" title="website" onclick="window.open('https://thebelovedmoon.github.io')"></span> -->
+      <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/Hio_1o18')"></span>
+      <!-- <span class="fa-brands fa-facebook" title="Facebook" onclick="window.open('https://facebook.com/thebelovedmoon')"></span> -->
+      <!-- <span class="fa-brands fa-instagram" title="Instagram" onclick="window.open('https://instagram.com/themoon_follow')"></span> -->
+      <!-- <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@thebelovedmoon')"></span> -->
+      <!-- <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/thebelovedmoon')"></span> -->
+      <!-- <span class="fa-brands fa-tiktok" title="TikTok" onclick="window.open('https://tiktok.com/@themoon_follow')"></span> -->
+      <!-- <span class="fa-brands fa-github" title="GitHub" onclick="window.open('https://github.com/thebelovedmoon')"></span> -->
+      <!-- <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:jelsa14018@gmail.com')"></span> -->
+    </div>
+  </div>
+</div>
+
+<div style="padding: 1.5rem; background-color: #d6d8e5; color: black;">
+  <h2>see the VTuber in 3D</h2>
+  <br>
+  <div id="modelCanvas"></div>
+  <br>
+  <div style="font-size: 0.75em; display: flex; justify-content: right;">
+    <p style="text-align: right;" onclick="window.open('https://github.com/pixiv/three-vrm')">library: pixiv/three-vrm (lic. MIT)</p>
+  </div>
+</div>
+<footer>
+  <div exploreText>
+    <div>
+      <h2>explore the Reginas👑🐣</h2>
+      <div class="socials">
+        <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/EmiiShion')"></span>
+        <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@EmiiShion')"></span>
+        <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/EmiiShion')"></span>
+        <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:EmiiShionALVR@gmail.com')"></span>
+      </div>
+      <br>
+      <p style="font-size: 0.75em;">© 2022 a vTbmassoc venture</p>
+    </div>
+  </div>
+  <div>
+    <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
+  </div>
+</footer>

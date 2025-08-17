@@ -21,8 +21,7 @@ header div .material-symbols-rounded { margin-left: 0.5rem; }
   cursor: pointer;
 }
 
-div[bgHero] {
-  background-color: #d6d8e5;
+div[bgHero], .cta {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -30,29 +29,32 @@ div[bgHero] {
   width: 100vw;
 }
 
-.cta {
+.cta > div {
   text-align: center;
   padding: 9rem 1.5rem;
 }
 
-.exploreRegina {
+footer {
   background-color: teal;
   background-image: url("/emiishion/assets/images/LEIDRAM2024_bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   color: white;
+  display: -moz-grid;
+  display: -ms-grid;
   display: grid;
   grid-template-columns: 37.5% 62.5%;
 }
-.exploreRegina > div[exploreText] {
+footer > div[exploreText] {
   height: 100%;
   display: flex;
   align-items: center;
   padding: 3rem 1.5rem;
 }
-.exploreRegina > div[exploreText] > div > .socials > *:hover { color: teal; }
-.exploreRegina > div > img {
+footer > div[exploreText] > div > .socials > *:hover { color: teal; }
+footer > div > img {
   width: 100%;
   height: auto;
   aspect-ratio: 16 / 10;
@@ -61,14 +63,13 @@ div[bgHero] {
   -o-object-position: center 25%;
   object-position: center 25%;
 }
-
 @media screen and (max-width: 720px) {
-  .exploreRegina { grid-template-columns: 100%; }
-  .exploreRegina > div[exploreText] {
+  footer { grid-template-columns: 100%; }
+  footer > div[exploreText] {
     justify-content: center;
     text-align: center;
   }
-  /* .exploreRegina > div > img { aspect-ratio: 16 / 6; } */
+  /* footer > div > img { aspect-ratio: 16 / 6; } */
 }
 
 #modelCanvas > canvas {
@@ -81,5 +82,5 @@ div[bgHero] {
   border-radius: 0.75rem;
 }
 
-div[style="font-size: 0.75em; text-align: right;"] * { cursor: pointer; }
-div[style="font-size: 0.75em; text-align: right;"] *:hover { color: #666; }
+div[style="font-size: 0.75em; display: flex; justify-content: right;"] * { cursor: pointer; }
+div[style="font-size: 0.75em; display: flex; justify-content: right;"] *:hover { color: #666; }

@@ -6,10 +6,10 @@ html, body {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   scroll-behavior: smooth;
-  scrollbar-width: thin;
 }
 
 * {
+  scrollbar-width: thin;
   box-sizing: border-box;
   margin: 0;
 }

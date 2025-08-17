@@ -26,6 +26,7 @@ body * { display: block; }
 }
 .alternativeIntro > div {
   display: -moz-grid !important;
+  display: -ms-grid !important;
   display: grid !important;
   grid-template-columns: 50% 50%;
   justify-content: space-around;

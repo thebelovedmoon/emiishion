@@ -5,7 +5,7 @@ function designateVTuber() {
   ajx.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { document.body.innerHTML = this.responseText; }
   };
-  ajx.open("GET", `/emiishion/assets/text/${isVTuber(vtuber)}.txt`, true);
+  ajx.open("GET", `/emiishion/assets/ajx_txt/${isVTuber(vtuber)}/_page.txt`, true);
   ajx.send();
   return;
 }
