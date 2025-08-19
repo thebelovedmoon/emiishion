@@ -28,7 +28,7 @@
     </div>
   </div>
 </div>
-<div class="sotfm">
+<div class="sotfm" style="@import url('https://vtresmarias.github.io/assets/frameworks/css/fonts.css');">
   <div>
     <div exploreText>
       <div>
