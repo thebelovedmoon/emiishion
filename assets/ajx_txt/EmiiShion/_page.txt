@@ -32,7 +32,7 @@
   <div>
     <div exploreText>
       <div>
-        <h2 style="font-family: 'Architects Daughter', cursive;">her story continues..</h2>
+        <h2 style="font-family: 'Architects Daughter', cursive; letter-spacing: initial;">her story continues..</h2>
         <br>
         <p>
           Emii's journey continues even as the Marias' story has concluded. carrying the
