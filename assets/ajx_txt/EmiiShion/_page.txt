@@ -28,7 +28,7 @@
     </div>
   </div>
 </div>
-<div class="sotfm" style="@import url('https://vtresmarias.github.io/assets/frameworks/css/fonts.css');">
+<div class="sotfm">
   <div>
     <div exploreText>
       <div>
@@ -40,7 +40,7 @@
           under the cherry blossom trees.
         </p>
         <br>
-        <button style="display: inline-block;" onclick="window.open('https://vtresmarias.github.io?vtm=story')">read the story</button>
+        <button style="display: inline-block; font-style: italic;" onclick="window.open('https://vtresmarias.github.io?vtm=story')">read the story</button>
       </div>
     </div>
     <div>
