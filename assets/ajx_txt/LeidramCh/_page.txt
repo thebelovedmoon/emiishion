@@ -17,7 +17,7 @@
     <div class="socials">
       <!-- <span class="fa-solid fa-spa" title="V三人のマリア" onclick="window.open('https://vtresmarias.github.io')"></span> -->
       <!-- <span class="fa-solid fa-globe" title="website" onclick="window.open('https://thebelovedmoon.github.io')"></span> -->
-      <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/Hio_1o18')"></span>
+      <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/i/user/1915679415851507718')"></span>
       <!-- <span class="fa-brands fa-facebook" title="Facebook" onclick="window.open('https://facebook.com/thebelovedmoon')"></span> -->
       <!-- <span class="fa-brands fa-instagram" title="Instagram" onclick="window.open('https://instagram.com/themoon_follow')"></span> -->
       <!-- <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@thebelovedmoon')"></span> -->
@@ -43,13 +43,13 @@
     <div>
       <h2>explore the Reginas👑🐣</h2>
       <div class="socials">
-        <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/EmiiShion')"></span>
+        <span class="fa-brands fa-x-twitter" title="X" onclick="window.open('https://x.com/i/user/1601447064483028992')"></span>
         <span class="fa-brands fa-youtube" title="YouTube" onclick="window.open('https://youtube.com/@EmiiShion')"></span>
         <span class="fa-brands fa-twitch" title="Twitch" onclick="window.open('https://twitch.tv/EmiiShion')"></span>
         <span class="fa-solid fa-envelope" title="email" onclick="window.open('mailto:EmiiShionALVR@gmail.com')"></span>
       </div>
       <br>
-      <p style="font-size: 0.75em;">© 2022 a vTbmassoc venture</p>
+      <p style="font-size: 0.75em;">© 2022 a vTbmassoc project</p>
     </div>
   </div>
   <div>
