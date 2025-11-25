@@ -1,11 +1,11 @@
 /* for vtuber-specific core css values, see vtuber/core.css */
 
-@import url("/emiishion/assets/css/fonts.css");
-@import url("/emiishion/assets/css/responsive.css");
+@import url("/assets/css/fonts.css");
+@import url("/assets/css/responsive.css");
 
 html {
   background-color: teal;
-  background-image: url("/emiishion/assets/images/LEIDRAM2024_bg.png");
+  background-image: url("/assets/images/LEIDRAM2024_bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -37,7 +37,8 @@ body * { display: block; }
   padding: 0.5rem;
 }
 .alternativeIntro > div > div * { margin: 0 auto !important; }
-.alternativeIntro > div > div:hover { color: #fed962; }
+.alternativeIntro > div > div[Emii]:hover { color: #fed962; }
+.alternativeIntro > div > div[Leidram]:hover { color: #d6d8e5; }
 
 button {
   background-color: teal;
@@ -50,3 +51,9 @@ button {
   cursor: pointer;
 }
 button:hover { background-color: rgb(2, 102, 102); }
+
+.emiiLeidram_logo {
+  width: 27.5rem;
+  max-width: 100%;
+  margin: 0 auto;
+}

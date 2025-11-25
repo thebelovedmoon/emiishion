@@ -10,7 +10,7 @@ function loadVer(nme) {
   ajx.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) { document.querySelector("div[versionDetailer]").innerHTML = this.responseText; }
   };
-  ajx.open("GET", `/emiishion/assets/ajx_txt/EmiiShion/Emii_ver/${nme}.txt`, true);
+  ajx.open("GET", `/assets/ajx_txt/EmiiShion/Emii_ver/${nme}.txt`, true);
   ajx.send();
   return;
 }

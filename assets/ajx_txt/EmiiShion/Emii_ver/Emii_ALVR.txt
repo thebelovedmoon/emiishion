@@ -8,7 +8,7 @@
     height: auto;
     aspect-ratio: 1 / 1;
   "
-  src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/ALVR.png"
+  src="/assets/images/vtuber/EmiiShion/Emii_versions/ALVR.png"
   alt=""
 >
 <br>

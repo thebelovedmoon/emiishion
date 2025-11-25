@@ -42,7 +42,7 @@ setTimeout(() => {
   loader.load(
 
     // URL of the VRM you want to load
-    `/emiishion/assets/vrm/${modelNm}.vrm`,
+    `/assets/vrm/${modelNm}.vrm`,
 
     // called when the resource is loaded
     (gltf) => {

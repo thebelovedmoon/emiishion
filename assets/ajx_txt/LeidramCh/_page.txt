@@ -7,7 +7,7 @@
     <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/emiishion')">logout</span> <!-- logout -->
   </div>
 </header>
-<div bgHero style="background-color: #d6d8e5; background-image: url('/emiishion/assets/images/vtuber/LeidramCh/main.png'); height: 100vh;"></div>
+<div bgHero style="background-color: #d6d8e5; background-image: url('/assets/images/vtuber/LeidramCh/main.png'); height: 100vh;"></div>
 <div class="cta">
   <div style="background-color: #d6d8e540;">
     <h1>Arthur Regina Leidram (アーサー王)👑</h1>
@@ -53,6 +53,6 @@
     </div>
   </div>
   <div>
-    <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
+    <img src="/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
   </div>
 </footer>

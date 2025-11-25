@@ -1,4 +1,4 @@
-@import url("/emiishion/assets/css/vtuber/core.css");
+@import url("/assets/css/vtuber/core.css");
 
 html { background-color: #d6d8e5; }
 
@@ -11,7 +11,7 @@ header div .material-symbols-rounded:hover { color: #666; }
 
 .cta {
   background-color: #d6d8e5;
-  background-image: url('/emiishion/assets/images/vtuber/LeidramCh/bg.png');
+  background-image: url('/assets/images/vtuber/LeidramCh/bg.png');
   color: black;
 }
 

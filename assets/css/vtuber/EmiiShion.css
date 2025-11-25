@@ -1,4 +1,4 @@
-@import url("/emiishion/assets/css/vtuber/core.css");
+@import url("/assets/css/vtuber/core.css");
 @import url('https://vtresmarias.github.io/assets/frameworks/css/fonts.css');
 
 html { background-color: #fed962; }
@@ -12,7 +12,7 @@ header div .material-symbols-rounded:hover { color: #666; }
 
 .cta {
   background-color: #fed962;
-  background-image: url('/emiishion/assets/images/vtuber/EmiiShion/bg.png');
+  background-image: url('/assets/images/vtuber/EmiiShion/bg.png');
   color: black;
 }
 
@@ -76,7 +76,7 @@ header div .material-symbols-rounded:hover { color: #666; }
 
 .versionSelect {
   background-color: #390820;
-  background-image: url("/emiishion/assets/images/vtuber/EmiiShion/MOTOKO_bg.png");
+  background-image: url("/assets/images/vtuber/EmiiShion/MOTOKO_bg.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

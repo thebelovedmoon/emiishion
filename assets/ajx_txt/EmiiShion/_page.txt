@@ -7,7 +7,7 @@
     <span class="material-symbols-rounded" title="return to selection" onclick="window.location.replace('/emiishion')">logout</span> <!-- logout -->
   </div>
 </header>
-<div bgHero style="background-color: #fed962; background-image: url('/emiishion/assets/images/vtuber/EmiiShion/main.png'); height: 100vh;"></div>
+<div bgHero style="background-color: #fed962; background-image: url('/assets/images/vtuber/EmiiShion/main.png'); height: 100vh;"></div>
 <div class="cta">
   <div style="background-color: #fed96240;">
     <h1>Emii Shion (絵美紫苑)🐣</h1>
@@ -44,7 +44,7 @@
       </div>
     </div>
     <div>
-      <img src="/emiishion/assets/images/vtuber/EmiiShion/sotfm_main.png" alt="the Reginas👑🐣">
+      <img src="/assets/images/vtuber/EmiiShion/sotfm_main.png" alt="the Reginas👑🐣">
     </div>
   </div>
 </div>
@@ -54,22 +54,22 @@
     <div>
       <div style="padding: 1.5rem;"> <!-- version selector -->
         <div versionSelection Emii_main onclick="loadVer('Emii_main')">
-          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/_main.png" alt="">
+          <img src="/assets/images/vtuber/EmiiShion/Emii_versions/_main.png" alt="">
           <div><p>Main ver.</p></div>
         </div>
         <br>
         <div versionSelection Emii_ALVR onclick="loadVer('Emii_ALVR')">
-          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/ALVR.png" alt="">
+          <img src="/assets/images/vtuber/EmiiShion/Emii_versions/ALVR.png" alt="">
           <div><p>AURORA (AuroraLiveVR) ver.</p></div>
         </div>
         <br>
         <div versionSelection Emii_Roselia onclick="loadVer('Emii_Roselia1')">
-          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_1.png" alt="">
+          <img src="/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_1.png" alt="">
           <div><p>Roselia ver.1</p></div>
         </div>
         <br>
         <div versionSelection Emii_Roselia onclick="loadVer('Emii_Roselia2')">
-          <img src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_2.png" alt="">
+          <img src="/assets/images/vtuber/EmiiShion/Emii_versions/Roselia_2.png" alt="">
           <div><p>Roselia ver.2</p></div>
         </div>
       </div>
@@ -103,6 +103,6 @@
     </div>
   </div>
   <div>
-    <img src="/emiishion/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
+    <img src="/assets/images/EmiiLeidram.png" alt="the Reginas👑🐣">
   </div>
 </footer>

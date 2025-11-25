@@ -8,8 +8,14 @@
     height: auto;
     aspect-ratio: 1 / 1;
   "
-  src="/emiishion/assets/images/vtuber/EmiiShion/Emii_versions/_main.png"
+  src="/assets/images/vtuber/EmiiShion/Emii_versions/_main.png"
   alt=""
->
-<br>
+/>
+<br />
 <h3 style="text-align: center">Main ver.</h3>
+<br /><br />
+<p>
+  the outfit is based on the color palette of a certain penguin model. since
+  then, it has remained as a default look -- an embodiment of what makes the
+  Alternative the one we all know and love today.
+</p>
